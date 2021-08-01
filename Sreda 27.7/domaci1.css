@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#tekst {
+    width: 70%;
+    
+}
+main {
+    position:relative;
+    
+    
+    left:300px;
+}
+
+aside {
+    position:absolute;
+
+    top: 116px;
+    
+    
+}
+
+#italic {
+    color: red;
+}
+
+label {
+    color: red;
+}
+    
+form {
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+
