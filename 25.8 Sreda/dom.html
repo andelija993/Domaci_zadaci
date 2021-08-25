@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domaci 25.8</title>
+</head>
+
+<body>
+    <div class="registracija">
+        <form class="podaci">
+            <input type="text" placeholder="name" id="name" required>
+            <p id="nameerror" style="color: red;"></p>
+            <br>
+            <input type="text" placeholder="surname" id="surname" required>
+            <p id="surnameerror" style="color: red;"></p>
+            <br>
+            <input type="text" placeholder="password" id="password" required>
+            <p id="passworderror" style="color: red;"></p>
+            <br>
+            <input type="text" placeholder="confirm password" id="confirmpass" required>
+            <p id="passworderrorcon" style="color: red;"></p>
+            <br>
+            <span>Choose course: </span>
+            <p id="check" style="color: red;"></p>
+            <br>
+            <input type="checkbox" id="js">
+            <label for="js">Java script</label>
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="php">
+            <label for="php">PHP</label>
+            <input type="checkbox" id="Java">
+            <label for="Java">Java</label>
+            <br>
+            <select name="City" id="city" required>
+                <option selected disabled value="-1">Choose city</option>
+                <option value="1">Nis</option>
+                <option value="2">Beograd</option>
+                <option value="3">Novi Sad</option>
+                <option value="4">Kragujevac</option>
+            </select>
+            <br>
+            <p id=radio>Select gender</p>
+            <input type="radio" id="Male" name="gender" value="0">
+            <label for="Radiobtn">Male</label>
+            <input type="radio" id="Female" name="gender" value="1">
+            <label for="Female">Female</label>
+            <br>
+        </form>
+        <button id="btn">REGISTER</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
